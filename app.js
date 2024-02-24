@@ -1,3 +1,3 @@
-var date=new Date();
-var j=date.toDateString(18)
-document.write(j)
+var arr=[waleed,freed,usman,esha,farhan,laiba]
+document.write(arr)
+var usman=+prompt('enter your number')
