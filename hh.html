@@ -2,20 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="hh.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="gg.css">
 </head>
 <body>
     <div class="main">
-<form action="">
-        <label for="">Email</label>
- <input class="bb" type="text" name="" id="">
- <label for="">Password</label>
-   <input type="password">
-<button>Log in</button>
-</form>
+<img class="ff" src="./google.png" alt="">
+<div class="child">
+ <input class="inp" type="search" name="" id="" value="" >
+ <div class="kk">
+<img onclick="gg()" class="jj" src="./search.png" alt="">
+<img class="aa"   src="./mic.png" alt="">
+
+
+ </div>
 </div>
+
+
+</div>
+
+<script>
+
+
+let tip=document.querySelector('.inp');
+let pit=document.querySelector('.jj')
+function gg(){
+let url='https://www.google.com/search?q'+ tip.value;
+window.open(url,'_self')
+}
+
+
+</script>
+
+
+
+    </div>
 </body>
 </html>

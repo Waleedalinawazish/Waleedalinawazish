@@ -1,34 +1,71 @@
-.gg{
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+
+body{
+    width: 100%;
+    height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    min-height: 100vh;
-    
 }
-.main{
-    width: 100px;
-    height: 100px;
-    border: 9px solid;
-    border-radius: 50%;
-    border-top-color: red;
-    animation: spin 2s infinite;
+.inp{
+    width: 100%;
+    border: 1px #ccc solid;
+    border-radius: 40px;
+    padding: 10px 25px;
+    
+    outline: none;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+font-size: 16px;
 }
 
-.child{
-    width: 100px;
-    height: 100px;
-    border: 9px solid;
-    border-radius: 50%;
-    border-bottom-color: red;
-    animation: rotate 2s infinite;}
-    @keyframes spin {
-        100%{
-            transform: rotate(360deg);
-        }
-    }
-    @keyframes rotate{
-        100%{
-            transform: rotate(-360deg);
-        }
-    }
+
+.ff{
+    padding: 0% 55px;
+}
+
+.kk{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    position: absolute;
+    top: 55%;
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+.jj{
+position: relative;
+    top: 18px;
+    left: 5px;
+    
+}
+.aa{
+    position: relative;
+    top: 18px;
+    right: 25px;
+
+}

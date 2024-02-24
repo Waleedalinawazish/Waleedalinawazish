@@ -3,24 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="ll.css">
+    <title>Google</title>
+    <link rel="stylesheet" href="tt.css">
 </head>
 <body>
-    <div class="ll">
+    <div class="main">
+
+<img src="./google.png" alt="">
+<input  class="inp" type="search" name="" id="">
+<div class="child">
+
+<img onclick="gg()" src="./search.png" alt="">
+<img  class="hh" src="./mic.png" alt="">
 
 
-        <form action="">
 
-<label for="">
-    Email
-</label>
-<input type="text" name="" id="">
-<label for="">Password</label>
-<input type="password" name="" id="">        
-<button>Log in </button>
 
-</form>
+</div>
+
+
     </div>
+
+<script>
+function gg(){
+    let vv=document.querySelector('.inp').value;
+    return window.location='https://www.google.com/search?q='+vv
+}
+
+
+
+
+
+</script>
+
+
 </body>
 </html>

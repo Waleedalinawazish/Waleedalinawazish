@@ -6,22 +6,30 @@
 }
 .main{
     width: 100%;
-    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 70vh;
 }
 input{
     width: 600px;
-    padding: 9px 30px;
-    border-radius: 30px;
-    border: 1px #cccc solid;
+    font-size: 30px;
+    border-radius: 40px;
+    border: 1px solid #cccc;
+    padding: 4px 30px;
+    font-family:serif;
     box-shadow: 1px gray;
 
 }
 .child{
     position: relative;
-    top:-38px ;
+    top: -38px;
     right: 270px;
+    
+}
+.hh{
+    position: relative;
+    left: 535px;
+    top: 1px;
 }
