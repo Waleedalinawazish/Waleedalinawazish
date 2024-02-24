@@ -7,14 +7,6 @@
     font-style: italic;
     
 
-
-    
-}
-body{
-  background: linear-gradient(#090979,#94bbe9 );
-}
-input{
-  background: linear-gradient();
 }
 .cc:hover{
 
@@ -58,14 +50,3 @@ color: white;
   .tt{
     background-color:whitesmoke;
   }
-  
-    
-    
-    
-    
-    
-    
-    ;
-  li{
-  color: white !important;
- }

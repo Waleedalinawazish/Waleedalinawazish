@@ -1,107 +1,141 @@
 *{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 
 }
 body{
-
-    width: 100px;
+    background-image:url(./12.jpg);
+    background-size: cover;
+    width: 100%;
     min-height: 100vh;
-    position: relative;
-    top: 50%;
-    left: 50%;
+}
+header{
     display: flex;
     justify-content: center;
     align-items: center;
     
     
     
-}
-
-.gg{
-    width: 180%;
-    padding: 13px;
-    padding-left: 45px;
-    padding-right: 60px;
-    border-color: 1px #ccc;
-    font-size: 16px;
-
-    border-radius: 30px;
-    outline: none;
-    box-sizing: 70px;
-    margin-left: -90px;
+    
+    
+    ;
     
 }
-.hh{
-
+nav  {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin-top: -33px;
-    margin-left: -65px;
-    
-}
-.jj{
-    
-    margin-right: -110px;
-}
-.kk{
-    
-margin-top: -200px;
-}
 
-
-.nn{
+    margin: 5px 30px;
+     
+ 
+}
+header  div.kk{
     position: absolute;
+    left: 20px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    margin-top: 5px;
+    word-spacing: 3px;
+    font-style: italic;
+}
+header  div.kk:hover{
+    background-color:red;
+    transform: 1.2;
+    transition: 2s;
+    color: white;
+    
+}
+  div.mm{
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+    font-size: large;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+.mm{
+    background-color: red;
+}
+li{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+li:hover{
+    background-color: red;
+    color: white;
+    transform: 1.2;
+    transition: 2s;
+}button{
+    background-color:indianred;
+    border-radius: 200px;
+    font-style: italic;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    outline: none;
+    bo
+}
+div.cc{
     display: flex;
-    justify-content: flex-end;
-    right: -500px;    
-    top: 50px;
-    list-style: none;
-    margin: 0px -7px ;
-    word-spacing: 80px;
+    justify-content: center;
+    align-items: center;
+    
 }
 .tt{
-    padding-right: 14px ;
-    color: #111;
-}
-button{
-    background-color: #4584ef;
-    border-radius: 4px;
-}
-footer{
-
     position: absolute;
-    bottom: 2px;
-    left: -600px;
+    bottom: 45%;
+    color: white;
+    padding: 3px;
+    margin-top: 8px;
+    font-size: xx-large;
+    font-weight: bolder;
+    letter-spacing: 4px;
 
-    justify-content: ;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
+    font-size: bold;
+    letter-spacing: 3px;
 }
-    li.t{
-        display: inline-block;
-        word-spacing: 5px;
-        padding: 0px 4px ;
-        margin: 0px 5px ;
-        position: relative
-        ;
-        
-        
-        
-        
-
-        
-
-
-    }
-    li{
-        display: flex;
-        justify-content: space-around;
-    }
-    #vv{
-        float: left;
-    }
-    #al{
-        padding: 4px 15px;
-    }
+.tj{
+    position: absolute;
+    bottom: 50%;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+.tr{
+    position: absolute;
+    bottom: 40%;
+}
