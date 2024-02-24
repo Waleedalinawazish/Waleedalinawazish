@@ -3,48 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Watch</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css "style="background-color: #ff0000;">
+    
 </head>
-<body>
-   
-    <div>
-<div class="t" id="time">12:00:00 </div>
+<body >
 
+    <div  class="n">
+        <center><h1 class="bg-light">Age Calculator</h1></center>
+        <form action="">
+            <div class="g">
+                <input class="r" maxlength="2" placeholder="dd" type="text" name="" id="date">
+                <input class="e" maxlength="2" placeholder="mm" type="text" name="" id="month">
+                <input class="k" maxlength="4" placeholder="yyyy" type="text" name="" id="year">
+            </div><br>
+            <button class="btn btn-success  b" onclick="age()"/>Submit</button><br><br>
+           
+            <center><h1 id="hh"></h1></center>
+        </form>
     </div>
 
-<script>
-setInterval(()=>{
+    <script>
+        function age(){
+var d1=document.getElementById('date').value
+var m1=document.getElementById('month').value
+var y1=document.getElementById('year').value
 
-    const time=document.querySelector('#time')
-let date=new Date()
-var hour=date.getHours()
-var mins=date.getMinutes()
-var sec=date.getSeconds()
-let day_night="AM"
+var date1=new Date();
+var d2=date1.getDate();
+var m2=1+date1.getMonth();
+var y2=date1.getFullYear();
+var months=[31,28,31,30,31,30,31,31,30,31,30,31]
+if(d1>d2){
 
-if(hour>12){
-    day_night="PM"
-    hour=hour-12
+    d2=d2+months[m2-1]
+    m2=m2-1
+
+}
+if(m1>m2){
+    m2=m2+12
+    y2=y2-1
 }
 
-if(hour<10){
+var d=d2-d1
+var m=m2-m1
+var y=y2-y1
 
-    hour="0"+hour
+alert('Your age in ' +y+ " "+ 'years'+" " +m+ " "+ 'months'+" "+ +d+ " "+'days');
+
+
+
 }
-
-time.textContent=hour+":"+mins+":"+sec+ "    "+day_night 
-
-
-},100)
-</script>
-
-
-
-
-
- 
-    
-
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

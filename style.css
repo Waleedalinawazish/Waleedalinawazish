@@ -1,55 +1,62 @@
-*padding{
+*{
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    font-family: sans-serif;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
-    display: grid;
-    place-items: center;
     width: 100%;
     min-height: 100vh;
-    
-    background: linear-gradient(  #ff4b1f,
-    #1fddff      );
-  
-    background-attachment: fixed;
-    
-}
-div{
-    width: 90px;
-    height: 60px;
     display: flex;
     justify-content: center;
-    background-color : transparent;
     align-items: center;
-    
-    border-radius: 5px;
-
-    box-shadow: 9px 4px 95px gray;  
-    color:blue;
+    background-color: #f984e5!important;
 }
-#time{
-    background: linear-gradient(
-       );
-        
-        color: 
-    
-#f44336,
-#262626;
+div.n{
+    width: 400px;
+    height: 300px;
+background-color: white;
+border-radius: 9px 12px;
+box-shadow: px 2px 2px rgb(4, 2, 7);
 }
-#time :hover{
-    background:linear-gradient(#00d2ff, #928dab);  
-    transform: scale(1.2);
-    transition: 3s;
+h1{
+    display: flex;
+    justify-content: center;
+}
+input{
+display: inline-block;
+width: 90px;
+position: relative;
+padding: 5px 4px;
+left: 50px;
+top: 19px;
+border-radius: 5px 2px;
+background-color:linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) !important;
+
+
 
 
 }
-h7{
-    font-size: 20px;
-    color: black;
+inp.r{
+    margin: 0px 2px;
+}
+
+button{
     position: relative
-    top: 7px;
+    ;
+    left: 40%;
+
+
+   
 }
+    .b{
+        width: 70px;
+        margin-top: 20%;
+    }
+    .ag{
+        display: block;
+        font-size: 20px;
+        overflow: hidden;
+        line-height: normal;
+    }
