@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+
+width: 200px;
+height: 120px;
+border:  2px solid rgba(255, 166, 0, 0.694);
+margin-top: -7px;
+position: relative;
+border-radius: 5px;
+}
+input{
+
+    position: relative;
+    top: 6px;
+    border-radius: 4px;
+    width: 200px;
+    padding: 3px;
+    border: 2px solid green;
+}

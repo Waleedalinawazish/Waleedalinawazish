@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hh.css">
+</head>
+
+
+<body>
+    <div class="main">
+<h2>Calender</h2>
+<div class="mm">
+<div class="right">
+    <p class="nn">01</p>
+<p class="fd">Friday</p>
+</div>
+<div class="left">
+    <p class="zz">Feburary</p>
+    <p class="bb">2024</p>
+</div>
+
+
+
+
+    </div>
+</div>
+
+
+
+<script>
+let qq=document.querySelector('.nn')
+let wf=document.querySelector('.fd')
+let mf=document.querySelector('.zz')
+let yf=document.querySelector('.bb')
+const qe=new Date();
+
+let ffw=["Sunday","Monday","Tuesday","Wendesday","Thursday","Friday","Saturaday"]
+let ffy=["January","Feburary","March","April","May","June","July","August","September","October","November","December"];
+
+qq.innerHTML=qe.getDate();
+wf.innerHTML=ffw[qe.getDay()]
+mf.innerHTML=ffy[qe.getMonth()]
+yf.innerHTML=qe.getFullYear()
+
+
+
+</script>
+</body>
+</html>

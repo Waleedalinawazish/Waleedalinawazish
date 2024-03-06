@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="e.css">
+</head>
+<body>
+    <div class="containe">
+
+<div class="clender">
+
+<div class="month"></div>
+<div class="date">
+    <h1></h1>
+    <p></p>
+</div>
+<div class="wekdays">
+<div>Mon</div>
+<div>Tue</div>
+<div>Wed</div>
+<div>thu</div>
+<div>fri</div>
+<div>Sat</div>
+<div>Sun</div>
+
+
+
+
+
+</div>
+
+<div class="days"></div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+    </div>
+
+
+    <script>
+
+
+const mname=document.querySelector(".date h1");
+const fd=document.querySelector(".date p");
+const date1=document.querySelector(".days");
+const mnl=new Date().getMonth();
+const fdl=new Date(new Date().getFullYear(),mnl +1,0).getDate();
+const ldg=new Date(new Date().getFullYear(),mnl,1).getDay()-1;
+const ffm=["Jan","Feb","Mar","Apr","May","Jun","Jul","Agu","Sep","Oct","Nov","Dec"]
+mname.innerText=ffm[mnl];
+fd.innerText=new Date().toDateString();
+
+
+
+
+let days = "";
+
+for (let i = firstDay; i > 0; i--) {
+  days += `<div class="empty"></div>`;
+}
+for (let i = 1; i <= lastDay; i++) {
+  if (i === new Date().getDate()) {
+    days += `<div class="today">${i}</div>`;
+  } else {
+    days += `<div>${i}</div>`;
+  }
+}
+
+date1.innerHTML = days;
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Calculate App</title>
+</head>
+<body>
+<div class="main">
+<h2 class="he">Calculate your weight in BMI</h2>
+Your height:
+<input   placeholder="Enter you height " type="text" name="" id="height">
+Your weight:
+<input placeholder="Enter your weight " type="text" name="" id="weight">
+<button id="btn">Calculate BMI</button>
+<input type="text" name="" id="res">
+<h4>Weight Condition: <span id="hh"> </span></h4>
+
+<script>
+
+
+
+
+
+
+
+
+const btn1=document.getElementById("btn");
+const inps=document.getElementById("res");
+const hres=document.getElementById("hh");
+
+
+
+function calculateBMI(){
+const heigthe1=document.getElementById("height").value/100;
+const weighte1=document.getElementById("weight").value;
+
+const whres=weigthe1/(highte1*heighte1)
+inps.value=whres
+
+if(whres<18.5){
+    hres.innerText="under weight"
+    
+}
+else if(whres>=18.5 && whres>=24.5 ) {
+    hres.innerText="Normal weight"
+}
+    else if(whres>=25.5 && whres>=30.5 ) {
+    hres.innerText="Over weight"
+    }
+    else if(whres>=31.5 && whres>=35.5 ) {
+    hres.innerText="Obseity weight"
+    }
+btn1.addEventListener("click",calculateBMI);
+
+}
+
+
+
+
+</script>
+
+
+
+</div> 
+</body>
+</html>
